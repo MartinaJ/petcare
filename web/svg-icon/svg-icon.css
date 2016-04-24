@@ -1,0 +1,80 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?elp0y3');
+	src:url('fonts/icomoon.eot?elp0y3#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?elp0y3') format('truetype'),
+		url('fonts/icomoon.woff?elp0y3') format('woff'),
+		url('fonts/icomoon.svg?elp0y3#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cat19:before {
+	content: "\e900";
+}
+.icon-chick2:before {
+	content: "\e901";
+}
+.icon-columbidae:before {
+	content: "\e902";
+}
+.icon-dog56:before {
+	content: "\e903";
+}
+.icon-dog62:before {
+	content: "\e904";
+}
+.icon-dog111:before {
+	content: "\e905";
+}
+.icon-dogs20:before {
+	content: "\e906";
+}
+.icon-duckling:before {
+	content: "\e907";
+}
+.icon-email174:before {
+	content: "\e908";
+}
+.icon-horse125:before {
+	content: "\e909";
+}
+.icon-parrot:before {
+	content: "\e90a";
+}
+.icon-pet25:before {
+	content: "\e90b";
+}
+.icon-pet27:before {
+	content: "\e90c";
+}
+.icon-phonecall9:before {
+	content: "\e90d";
+}
+.icon-placeholder87:before {
+	content: "\e90e";
+}
+.icon-rabbit5:before {
+	content: "\e90f";
+}
+.icon-squirrel2:before {
+	content: "\e910";
+}
+.icon-veterinarian:before {
+	content: "\e911";
+}
+

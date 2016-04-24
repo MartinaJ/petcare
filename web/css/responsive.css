@@ -1,0 +1,830 @@
+/*============ Media 1600Px Start ============ */
+@media (max-width: 1600px){
+.kode_testimonial p span{
+	display:none;
+}
+.kode_gallery_testi{
+	padding:20px 0px;
+}
+.kode_gallery_testi .kode_pet_heading_2 h3{
+	font-size:20px;
+}
+.kode_testimonial{
+	padding:40px 35px 0px;
+}
+.kode_test_des p::after{
+	bottom:29px;
+}
+}
+
+/*============	Media 940Px Start ============ */
+@media screen and (min-width: 1199px) and (max-width: 1380px) {
+.kode_pet_testi{
+	padding:13px 60px;
+}
+.kode_pet_heading_2 span::after{
+	right:72px	
+}
+.kode_testimonial{
+	padding:25px 35px 0;	
+}
+.kode_testimonial p{
+	margin-bottom:10px;	
+}
+.kode_testimonial p::before{
+	top:-38px;	
+}
+.kode_pet_heading_2{
+	margin-bottom:20px;	
+}
+.kode_testimonial figure{
+	margin-bottom:10px;	
+}
+.kode_pet_appoit_bg::after{
+	background-size:26%;	
+}
+.kode_test_des{
+	margin:-68px 0 0;
+}
+.kode_pet_service_lst:hover .kode_pet_service_caption{
+	top:72px;
+}
+figure.effect-hera figcaption::before{
+	width:150px;
+	height:150px;
+}
+.kode_pet_service_hover{
+	margin:-40px 0 0;
+}
+}
+
+/*============ Media 1199Px Start ============ */
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+.kode_pet_caption{display:none;}
+.kode_pet_navigation ul.nav li a{
+	padding:39px 12px 47px;
+	font-size:12px;
+}
+.kode_pet_banner .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	margin:0px -228px 0px 0px;	
+}
+.kode_pet_caption{
+	width:400px;
+}
+.kode_pet_caption{
+	margin:-100px -465px 0 0;	
+}
+.kode_pet_caption h2{
+	font-size:35px;
+	margin-bottom:30px;
+}
+.kode_pet_caption a{
+	padding:10px 24px;
+}
+.kode_pet_banner .bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto{
+	bottom:20px;	
+}
+.kode_pet_dwnld{
+	text-align:center;	
+}
+.kode_pet_dwnld h5{
+	line-height:35px;
+	margin:0px 0px 10px;	
+}
+.kode_pet_dwnld a{
+	float:none;	
+}
+.kode_pet_testi_bg::before{
+	width:100%;	
+}
+.kode_pet_blog{
+	margin-bottom:20px;		
+}
+span.kode_pet_heading_dir_left::before,
+span.kode_pet_heading_dir_right::before{
+	width:150px;	
+}
+.kode_pet_lnk_1{
+	padding:15px 25px;
+}
+.kode_pet_foo_lst{
+	margin-bottom:20px;	
+}
+.kode_pet_trusted{
+	text-align:center;
+}
+.kode_pet_trusted h3,
+.kode_pet_trusted p
+{
+	float:none;
+}
+.kode_pet_trusted p{
+	margin-bottom:20px;
+}
+.kode_pet_trusted a{
+	position:static;
+}
+.kode_pet_navigation .navbar-default .navbar-nav > li{
+	margin:0px;	
+}
+.kode_price_outer_wrap{
+	width:100%;	
+}
+.kode_homless_read h6{
+	margin-bottom:30px;	
+}
+.kode_pet_heading_4 h4{
+	margin:0px 0px 70px;	
+}
+.kode_gallery_testi{
+	width:30%;	
+}
+.kode_pet_heading_2 span::after{
+	right:98px;	
+}
+.kode_testimonial{
+	padding:30px 30px 0;	
+}
+.kode_testimonial p::before{
+	top:-40px;	
+}
+.gallery_testimonial .owl-controls .owl-buttons{
+	width:26%;	
+}
+.kode_testimonial p{
+	margin-bottom:20px;	
+}
+.kode_pet_appoit_bg::before{
+	background-size:13%;	
+}
+.kode_pet_appoit_bg::after{
+	background-size:24%;	
+}
+.kode_pet_heading_1 p:first-of-type{
+	display:none;	
+}
+.kode_donate2:hover::after{
+	border-width:211px 0 0 359px; 	
+}
+figure.effect-hera figcaption::before{
+	width:130px;
+	height:130px;	
+}
+.kode_test_des p::after{
+	bottom:34px;
+}
+}
+/*============ Media 1024Px Start ============ */
+@media (max-width: 1024px) {
+	.kode_pet_service_lst:hover .kode_pet_service_caption{
+		top:38px;
+	}
+	.kode_moq_piler:hover .kode_moq_piler_logo{
+		bottom:63px;
+	}
+	.kode_test_des{
+		margin:-68px 0 0;
+	}
+	.kode_test_des p::after{
+		bottom:22px;
+	}
+}
+
+/*============	Media 768Px Start ============ */ 
+@media (min-width: 768px) and (max-width: 990px) {
+	.kode_pet_navigation .container{background:#fff;}
+	.kode_pet_caption{display:none;}
+	.dl-menuwrapper{
+		display:block;
+		float:right;
+		margin:12px 0px;
+	}
+	.kode_pet_logo{
+		margin:0px;
+	}
+	.kode_pet_navigation .navbar{
+		display:none;
+	}
+	.kode_pet_navigation .container{
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+	.kode_pet_navigation .nav-cover:before{
+		border-bottom-width:90px;
+	}
+	.kode_pet_navigation .nav-cover:after{
+		border-top-width:90px;
+	}
+	.kode_pet_search{
+		width:238px;
+	}
+	.kode_pet_dwnld h5{
+		white-space:nowrap;
+		text-overflow: ellipsis;
+		overflow:hidden;
+		display:inherit;
+	}
+
+.kode_pet_navigation ul.nav li a{
+	padding:12px 12px;
+}
+.kode_pet_banner .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	margin:0px -228px 0px 0px;	
+}
+.kode_pet_caption{
+	margin:-60px -465px 0 0;	
+}
+.kode_pet_caption h2{
+	font-size:35px;
+	margin-bottom:30px;
+}
+.kode_pet_caption a{
+	padding:10px 24px;
+}
+.kode_pet_banner .bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto{
+	bottom:20px;	
+}
+.kode_pet_dwnld{
+	text-align:center;	
+}
+.kode_pet_dwnld h5{
+	line-height:35px;
+	margin:0px 0px 10px;	
+}
+.kode_pet_dwnld a{
+	float:none;	
+}
+.kode_pet_testi_bg::before{
+	width:100%;	
+}
+.kode_pet_blog{
+	margin-bottom:20px;		
+}
+span.kode_pet_heading_dir_left::before,
+span.kode_pet_heading_dir_right::before{
+	width:150px;	
+}
+.kode_pet_lnk_1{
+	padding:15px 25px;
+}
+.kode_pet_foo_lst{
+	margin-bottom:20px;	
+}
+.kode_pet_trusted{
+	text-align:center;
+}
+.kode_pet_trusted h3,
+.kode_pet_trusted p
+{
+	float:none;
+}
+.kode_pet_trusted p{
+	margin-bottom:20px;
+}
+.kode_pet_trusted a{
+	position:static;
+}
+.kode_pet_heading_4 h4{
+	font-size:30px;	
+}
+.kode_price_outer_wrap{
+	width:100%;		
+}
+.kode_donate1,
+.kode_donate2{
+	width:100%;	
+}
+.span_top,
+.span_bottom{
+	display:none;	
+}
+.kode_donate2:hover::after{
+	border-width:195px 0 0 720px;	
+}
+.kode_homless_read h6{
+	margin-bottom:20px;	
+}
+.kode_gallery_testi{
+	width:50%;	
+}
+.gallery_testimonial .owl-controls .owl-buttons{
+	width:45%;	
+}
+.kode_testimonial{
+	padding:20px 30px 0;	
+}
+.kode_testimonial p{
+	margin-bottom:20px;	
+}
+.kode_testimonial p::before{
+	top:-33px;	
+}
+.kode_testimonial figure{
+	margin-bottom:15px;	
+}
+.kode_pet_heading_2{
+	margin-bottom:25px;	
+}
+.kode_pet_appotmnt{
+	width:100%;	
+}
+.kode_pet_appoit_bg::before{
+	background-size:14%;	
+}
+.kode_pet_appoit_bg::after{
+	background-size:21%;	
+}
+.kode_donate1:hover::before{
+	border-width:178px 0 0 723px;	
+}
+figure.effect-hera figcaption::before{
+	width:170px;
+	height:170px;	
+}
+.kode_test_des{
+	margin:-70px 0 0;	
+}
+.kode-counter ul li h6{
+	margin-bottom:25px;
+}
+.kode-blog-list ul li figure{
+		margin-bottom:10px;
+	}
+	.kode_pet_service_lst{
+		margin-bottom:20px;
+	}
+	.word-count{
+		font-size:35px;
+	}
+	.kode_pet_blog h6{
+		margin:0 0 0 -141px;
+		width:280px;
+	}
+	.kode_love_img{
+		padding:0 250px;
+	}
+	.kode_pet_blog_des ul > li{
+		padding:0 7px;
+	}
+	.kode_pet_blog_des ul > li > a{
+		font-size:13px;
+	}
+}
+
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+
+.kode_pet_navigation{
+	position:static
+}
+.kode_pet_range_sldr{
+	width:100%;
+}
+.kode_pet_appotmnt{
+	width:100%;
+}
+.kode_pet_heading_1{
+	overflow:hidden
+}
+.kode_pet_navigation .nav-cover::before, .kode_pet_navigation .nav-cover::after{
+	display:none;
+}
+.kode_pet_navigation .navbar{
+	display:none;
+}
+.dl-menuwrapper{
+	display:block;
+	float:right;
+	margin:35px 0px;
+}
+.kode_pet_caption{
+	margin:-100px -465px 0 0;	
+}
+.kode_pet_caption h2{
+	font-size:35px;
+	margin-bottom:30px;
+}
+.kode_pet_caption a{
+	padding:10px 24px;
+}
+.kode_pet_banner .bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto{
+	bottom:10px;	
+}
+.kode_pet_banner .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	margin:0px -228px 0px 0px;	
+}
+.kode_pet_dwnld{
+	text-align:center;	
+}
+.kode_pet_dwnld h5{
+	line-height:35px;
+	margin:0px 0px 10px;	
+}
+.kode_pet_dwnld a{
+	float:none;	
+}
+.kode_pet_trusted{
+	text-align:center;
+}
+.kode_pet_trusted h3,
+.kode_pet_trusted p
+{
+	float:none;
+}
+.kode_pet_trusted p{
+	margin-bottom:20px;
+}
+.kode_pet_trusted a{
+	position:static;
+}
+.kode_pet_blog{
+	margin-bottom:20px;		
+}
+.kode_pet_testi_bg::before{
+	width:100%;	
+}
+span.kode_pet_heading_dir_left::before,
+span.kode_pet_heading_dir_right::before{
+	width:150px;	
+}
+.kode_pet_foo_lst{
+	margin-bottom:20px;	
+}
+.kode_pet_caption {
+    left: 0;
+    margin: 0;
+    right: 0;
+    top: 10%;
+    width: 100%;
+}
+.kode_pet_caption h2{
+	font-size:30px;
+}
+.kode_pet_top_strip .top-info {
+	width:100%;
+	margin:0px;
+	text-align:center;
+}
+.kode_pet_top_strip .top-info a{
+	display:inline-block;
+	float:none;
+	margin:0px 0px 10px 0px;
+}
+.kode_pet_dwnld h5{
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	overflow:hidden;
+	display:inherit;
+	font-size:16px;
+}
+section{
+	padding:30px 0px;
+}
+.kode_pet_heading_1 h4{
+	font-size:18px;
+	margin:0 15px 12px;
+}
+.kode_pet_service_lst{
+	margin:0px 0px 20px 0px;
+}
+.kode_pet_heading_1{
+	padding:0px;
+}
+.kode_pet_heading2 h2{
+	font-size:30px;
+}
+.kode_pet_heading2 h4{
+	font-size:16px;
+	margin-bottom:10px;
+}
+.kode_pet_trusted h3{
+	font-size:22px;
+}
+.kode_pet_testi{
+	padding:30px;
+}
+.kode_pet_value{
+	float:left;
+	width:100%;
+	text-align:center;
+	min-height:136px;
+}
+.kode_pet_value img{
+	width:auto;
+	float:none
+	
+}
+.kode-subheader.subheader-height{
+	padding:40px 0px;
+	height:auto;
+}
+.kode-subheader h2{
+	font-size:34px;
+}
+.kode_pet_ui_elmnt{
+	float:left;
+	width:100%;
+}
+.kode_pet_search{
+	float:right;
+}
+#koderespond form p{
+	width:100%;
+}
+/*Changing*/
+.kode_pet_heading_4 h4{
+	font-size:28px;	
+}
+.kode_price_outer_wrap,
+	.kode_donate1,
+	.kode_donate2
+	{
+		width:100%;	
+	}
+	.span_top,
+	.span_bottom{
+		display:none;	
+	}
+	.kode_donate2:hover::after{
+		border-width:211px 0 0 610px;	
+	}
+	.kode_homless_read h6{
+		margin-bottom:20px;	
+	}
+	.kode_pet_heading_1 p{
+		padding:0 70px;	
+	}
+	.kode_gallery_testi{
+		width:50%;	
+	}
+	.gallery_testimonial .owl-controls .owl-buttons{
+		width:40%;	
+	}
+	.kode_pet_heading_2 span::after{
+		right:100px;	
+	}
+	.kode_pet_heading_2{
+		margin-bottom:15px;	
+	}
+	.kode_pet_heading_2 h3{
+		margin-bottom:10px;	
+	}
+	.kode_testimonial{
+		padding:15px 25px 0;	
+	}
+	.kode_testimonial p{
+		margin-bottom:15px;	
+	}
+	.kode_testimonial p::before{
+		top:-25px;	
+	}
+	.kode_donate1:hover::before{
+		border-width:178px 0 0 612px;	
+	}
+	.kode_test_des p::before,
+	.kode_test_des p::after
+	{
+		font-size:20px;	
+	}
+	.kode_test_des{
+		margin:-74px 0 0;	
+	}
+	.kode_test_des p::after{
+		bottom:30px;	
+	}
+	.kode_test_des p::before{
+		bottom:-30px;	
+	}
+	.kode-blog-list ul li figure{
+		margin-bottom:10px;
+	}
+	.kode_love_img{
+		padding:0px 60px;
+	}
+	.kode_pet_foo_lst{
+		min-height:115px;
+	}
+
+}
+
+/*============ Media 640Px Star ============ */
+@media (max-width: 640px) {
+	.kode_pet_caption.caption_left{
+		display:none;
+	}
+	.kode_pet_service_lst:hover .kode_pet_service_caption{
+		top:180px;
+	}
+	.kode_pet_service_hover{
+		margin:-40px 0px 0px;
+	}
+	.kode-counter ul li h6{
+		margin-bottom:25px;
+	}
+	.kode_test_des{
+		margin:-86px 0px 0px;
+	}
+}
+
+/*============ Media 480Px Star ============ */
+@media (max-width: 480px) {
+	#kodecomments .children > li{padding:0px;}
+	#kodecomments ul li figure ~ .text{width:100%;padding:0px;}
+	.kode-postsection ul li h6{font-weight:400;color:#333;}
+	.kode-postsection ul li a{font-size:20px;}
+	.kode-admin-post figure{width:124px;}
+	.kode-admin-post figure ~ .admin-info{padding:0px 15px;clear:both;width:100%;}
+	.kode_gallery_testi{width:100%;padding:100px 0px;}
+	.kode_pet_banner .bx-default-pager{display:none;}
+	.kode_testimonial p span{display:block;}
+	.kode_pet_value{margin:0px;}
+	.kode_pet_caption.caption_left{
+		display:none;
+	}
+	.kode_pet_foo_scl ul li{
+	float:none;
+	display:inline-block;
+	}
+	.kode_footr_copy{
+		margin-bottom:15px;
+	}
+	.kode_pet_foo_scl{
+		float:none;
+		text-align:center;
+	}
+	#our-blogs{
+		overflow:hidden;
+	}
+	
+	.kode_pet_logo img{
+		width:202px;
+	}
+	.dl-menuwrapper {
+		display: block;
+		float: right;
+		margin: 29px 0;
+	}
+	.kode_pet_banner{
+		overflow:hidden;
+	}
+	.kode_pet_scl_icon{
+		float:left;
+		width:100%;
+		margin:0px 0px 10px 0px;
+	}
+	.kode_pet_scl_icon ul{
+		float:left;
+		width:100%;
+		text-align:center;
+	}
+	.kode_pet_scl_icon ul li{
+		float:none;
+		display:inline-block;
+		margin:0px 2px;
+	}
+	.kode_pet_search{
+		float:left;
+		width:100%;
+	}
+	.kode_pet_ui_elmnt{
+		float:left;
+		width:100%;
+	}
+	/*Changing*/
+	.kode_pet_heading_4 h4{
+		font-size:24px;	
+	}
+	.kode_donate1 h2, .kode_donate2 h2{
+		font-size:46px;	
+	}
+	.kode_homless_read h6{
+		margin-bottom:20px;
+		line-height:25px;	
+	}
+	.kode_pet_heading_1 p{
+		padding:0 10px;	
+	}
+	.kode_pet_heading_1 h3, .kode_pet_heading_2 h3, .kode_pet_heading_3 h3{
+		line-height:34px;	
+	}
+	.kode_pet_blog h6{
+		margin:0 0 0 -132px;
+		width:260px;
+		padding:0 5px;	
+	}
+	.gallery_testimonial .owl-controls .owl-buttons{
+		width:87%;
+		bottom:18px;	
+	}
+	.kode_gallery_testi{
+		padding:20px 0px;	
+	}
+	.kode_pet_heading_2 span::after{
+		right:178px;	
+	}
+	.kode_pet_heading_2 h3{
+		margin-bottom:8px;	
+	}
+	.kode_testimonial p{
+		margin-bottom:5px;	
+	}
+	.kode_pet_heading_2{
+		margin-bottom:20px;	
+	}
+	.kode_footr_copy p{
+		font-size:14px;	
+	}
+	.kode_pet_footer a{
+		font-size:40px;	
+	}
+	.kode_pet_blog{
+		padding:25px 20px;	
+	}
+	.kode_donate2:hover::after{
+		border-width:211px 0 0 451px;	
+	}
+	.kode_donate1:hover::before{
+		border-width:178px 0 0 451px;	
+	}
+	figure.effect-hera figcaption::before{
+		width:170px;
+		height:170px;	
+	}
+	.kode_test_des p::before,
+	.kode_test_des p::after
+	{
+		font-size:20px;	
+	}
+	.kode_test_des{
+		margin:-63px 0 0;	
+	}
+	.kode_pet_service_lst:hover .kode_pet_service_caption{
+		top:105px;
+	}
+	.kode_test_des{
+		margin:-72px 0 0;
+	}
+	.kode-counter ul li h6{
+		margin-bottom:25px;
+	}
+	
+	
+}
+/*============ Media 360Px Star ============ */
+@media (max-width: 360px) {
+	.kode_donate1:hover::before{
+		border-width:178px 0 0 330px;	
+	}
+	.kode_donate2:hover::after{
+		border-width:197px 0 0 331px;	
+	}
+	figure.effect-hera figcaption::before{
+		width:150px;
+		height:150px;	
+	}
+	.kode_pet_service_lst:hover .kode_pet_service_caption{
+		top:55px;
+	}
+	.kode_test_des{
+		margin:-43px 0 0;
+	}
+	.kode-counter ul li h6{
+		margin-bottom:25px;
+	}
+	.kode_pet_heading_4 h3{
+		line-height:35px;
+	}
+}
+/*============ Media 320Px Star ============ */
+@media (max-width: 320px) {
+	.kode_donate2:hover::after{
+		border-width:211px 0 0 291px;	
+	}
+	.kode_pet_heading_2 span::after{
+		right:102px;	
+	}
+	.kode_donate1:hover::before{
+		border-width:178px 0 0 289px;	
+	}
+	.kode_pet_service_hover{
+		margin:-60px 0 0;
+	}
+	.kode_pet_service_lst:hover .kode_pet_service_caption{
+		top:30px;
+	}
+	.kode_pet_heading_4 h3{
+		line-height:35px;
+	}
+	.kode-tag a{
+		padding:2px 16px 2px 18px;
+	}
+	.detail-info .kode-socialnetwork{
+		width:100%;
+	}
+	.detail-info .kode-socialnetwork ul li{
+		text-align:center;
+	}
+}

@@ -1,0 +1,2433 @@
+/*==================================================
+
+Project:	PetCare - Animal Care Theme
+Version:	1.0
+Last change:	12/10/15
+Author :	KodeForest
+
+/**
+ * Table of Contents :
+ *
+* 1.0 - Default Css
+* 2.0 - Pet Header Wrap Style
+* 3.0 - Pet Logo Wrap Style
+* 4.0 - Pet UI Element Wrap Style
+* 5.0 - Pet Search Wrap Style
+* 6.0 - Pet Social Icon Wrap Style
+* 7.0 - Pet Navigation Wrap Style
+* 8.0 - Pet Banner Wrap Style
+* 9.0 - Pet Download Sermon Wrap Style
+* 10.0 - Pet Heading Wrap Style
+* 11.0 - Find Out Best Pet Wrap Style
+* 11.1 - Pet Supper Homeless Wrap Style
+* 12.0 - Pet Find Best Companion Wrap Style
+* 13.0 - Pet Image Gallery Wrap Style
+* 14.0 - Pet Trusted country Wrap Style
+* 15.0 - Pet  Our Blog Wrap Style
+* 16.0 - Pet Testimonial Wrap Style
+* 17.0 - Pet Valueable Client Wrap Style
+* 18.0 - Pet Appoitment Wrap Style
+* 19.0 - Pet Map Wrap Style
+* 20.0 - Our Agents Wrap Style
+* 21.0 - Radial Out Effect
+* 22.0 - Sweep To Right Effect
+* 22.1 - Testimonial Image Effect
+
+[Color codes]
+
+Background:	#ffffff (white)
+Content:	#999999 (light black)
+Header h1:	#111111 (dark black)
+Header h2:	#111111 (dark black)
+Footer:		#000000 (dark black)
+
+a (standard):	#999999 (light black)
+a (visited):	#999999 (light black)
+a (active):	#999999 (light black)
+
+[Typography]
+  
+Body copy:		14px/ 'Lato', sans-serif;
+Headers:		'Josefin Sans', sans-serif;
+Input, textarea:	'Lato', sans-serif;
+Sidebar heading:	'Lato', sans-serif;
+
+-------------------------------------------------------------------*/
+
+.kode_wrapper,
+header,
+.kode_pet_content,
+section,
+footer {
+	float:left;
+	width:100%;	
+	
+}
+footer .container{
+	position:relative;
+	z-index:999;
+}
+section{
+	padding:50px 0px;	
+}
+
+/*
+	  ==============================================================
+		   Pet Header Wrap Style
+	  ==============================================================
+*/
+.kode_pet_hdr{
+	padding:0;
+	float:left;
+	width:100%;
+	position:relative;
+}
+.kode_pet_hdr:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	
+	width:100%;
+	height:2px;	
+}
+.kode_pet_top_strip{
+	float:left;
+	width:100%;
+	position:relative;
+	padding:17px 0px 15px 0px;
+	background-color:#3d3f42;
+	background-image:url(images/pet-hdr-strip-bg.jpg);
+	background-repeat:repeat-x;
+}
+.kode_pet_top_strip .top-info{
+	float:left;
+	margin:5px 0px;
+}
+.kode_pet_top_strip .top-info a{
+	float:left;
+	margin:0px 15px 0px 0px;
+	color:#e1e1e2;
+}
+.kode_pet_top_strip .top-info a i{
+	float:left;
+	margin:6px 7px 0px 0px;
+}
+
+/*
+	  ==============================================================
+		   Pet Logo Wrap Style
+	  ==============================================================
+*/
+.kode_pet_logo{
+	float:left;
+	margin:26px 0px;
+}
+.kode_pet_logo a{
+	display:inline-block;
+	font-size:40px;
+	text-transform:uppercase;
+	font-weight:bold;	
+}
+/*
+	  ==============================================================
+		   Pet UI Element Wrap Style
+	  ==============================================================
+*/
+.kode_pet_ui_elmnt{
+	float:right;	
+}
+/*
+	  ==============================================================
+		   Pet Search Wrap Style
+	  ==============================================================
+*/
+.kode_pet_search{
+	float:left;
+	width:318px;
+	border:none;
+	position:relative;
+	padding-top:2px;
+	
+}
+.kode_pet_search input[type="text"]{
+	border:0px;	
+	width:100%;
+	height:34px;
+	padding:0px;
+	border:1px solid #666;
+	border-radius:40px;
+	padding:5px 42px 5px 15px;
+	background:none;
+	color:#fff;
+}
+.kode_pet_search a{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	font-size:14px;
+	color:#fff;
+	position:absolute;
+	right:2px;
+	top:4px;
+	line-height:28px;
+	text-align:center;
+	border-radius:100%;
+	z-index:9999;	
+}
+
+.kode_pet_search:hover a:before{
+	width:100%;
+	height:100%;
+	opacity:1;	
+}
+
+/*
+	  ==============================================================
+		   Pet Social Icon Wrap Style
+	  ==============================================================
+*/
+.kode_pet_scl_icon{
+	float:left;
+	padding-top:2px;	
+}
+.kode_pet_scl_icon ul{
+	float:left;
+	width:100%;	
+}
+.kode_pet_scl_icon ul li{
+	float:left;
+	position:relative;
+	margin:0px 10px 0px 0px;	
+}
+.kode_pet_scl_icon ul li a{
+	display:block;
+	width:34px;
+	height:34px;
+	border-radius:100%;
+	font-size:12px;
+	color:#fff;
+	line-height:32px;
+	position:relative;
+	text-align:center;
+	z-index:100;
+	background-color:#666666;	
+}
+.kode_pet_scl_icon ul li a:before{
+	content:"";
+	position:absolute;
+	width:0;
+	height:0;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	margin:auto;
+	border-radius:100%;
+	opacity:0;
+	z-index:-1;		
+}
+.kode_pet_scl_icon ul li:hover a:before{
+	width:100%;
+	height:100%;
+	opacity:1;	
+}
+.kode_pet_scl_icon ul li:first-child a{
+	margin-left:0px;	
+}
+/*
+	  ==============================================================
+		   Pet Navigation Wrap Style
+	  ==============================================================
+*/
+.navbar-fixed-top {
+	z-index: 1000000 !important;
+}
+
+.current{
+	border-top:6px solid;	
+}
+.dl-menuwrapper{
+	display:none;
+}
+.kode_pet_navigation{
+	margin-top: 50px;
+	float:left;
+	width:100%;
+	text-align:center;
+	left:0px;
+	z-index:9999;
+	position:absolute;
+	left:0px;
+	top:100%;	
+}
+
+.nav-container{
+   	width: auto;
+	background-color: #fff;
+	background-image:url(../images/pet-hdr-strip-bg.jpg);
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+
+.kode_pet_navigation .container{
+	background-color:#fff;
+
+	background-image:url(../images/pet-hdr-strip-bg.jpg);
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+
+.kode_pet_navigation .nav-cover:before{
+	content:"";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 20px 112px 0;
+	border-color: transparent rgba(0,0,0,0.4) transparent transparent;
+	position:absolute;
+	right:100%;
+	top:0px;
+}
+.kode_pet_navigation .navbar-default{
+	background-color:transparent;
+	border:0px;	
+}
+.kode_pet_navigation .navbar{
+	border-radius:0px;
+	margin:0px 0px;
+	min-height:1px;
+	float:right;
+}
+.kode_pet_navigation .navbar-default .navbar-collapse,
+.kode_pet_navigation .navbar-default .navbar-form{
+	background-color:transparent;
+	border:0px;	
+}
+.kode_pet_navigation .navbar-collapse{
+	padding:0px;	
+}
+.kode_pet_navigation .navbar-default .navbar-nav{
+	float:none;
+	text-align:center;
+}
+.kode_pet_navigation .navbar-default .navbar-nav > li{
+	float:left;
+	margin:0px 2px;
+}
+
+.kode_pet_navigation ul.nav li a{
+	color:#666666;
+	text-transform:uppercase;
+	padding:42px 12px;
+	font-weight:bold;
+	border-top:solid 6px transparent;
+}
+.kode_pet_navigation ul.nav li a.current{
+	border-top:solid 6px #ccc;
+}
+.kode_pet_navigation ul.nav li.active a,
+.kode_pet_navigation ul.nav li:hover a
+{
+	background:none;
+	border-top:solid 6px #ccc;
+}
+.kode_pet_navigation .navbar-default .navbar-nav > .active > a:hover{
+	background:none;
+}
+.kf_sticky{
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:9999999999;	
+}
+.kf_sticky .logo,.kf_sticky,.kf_sticky .navbar-nav > li,.kf_sticky .kd-search{
+		-webkit-transition: all 0.4s linear;
+	   -moz-transition: all 0.4s linear;
+	    -ms-transition: all 0.4s linear;
+	     -o-transition: all 0.4s linear;
+	        transition: all 0.4s linear;
+}
+.capcha_image_frame {
+    float: left;
+    height: 45px;
+}
+.kode_pet_banner .bx-controls-direction{display:none;}
+/*
+	  ==============================================================
+		   Pet Banner Wrap Style
+	  ==============================================================
+*/
+.kode_pet_banner{
+	float:left;
+	width:100%;
+	position:relative;
+	margin-top: 30px;
+}
+.kode_pet_banner ul{
+	float:left;
+	width:100%;	
+}
+.kode_pet_banner ul li{
+	float:left;
+	position:relative;
+}
+.kode_pet_banner ul li:before{
+	content:"";
+	background-color:#000;
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:100%;
+	width:100%;
+	opacity:0.5;
+}
+.kode_pet_banner ul li img{
+	width:100%;
+	height:auto;	
+}
+.kode_pet_caption{
+	position:absolute;
+	right:50%;
+	top:50%;
+	width:535px;
+	text-align:center;
+	margin:-100px -535px 0 0;	
+}
+.kode_pet_caption.caption_left{
+	text-align:left;
+	right:auto;
+	margin:-100px 0 0 -590px;
+	left:50%;
+}
+.kode_pet_caption.caption_right{
+	text-align:left;
+	left:auto;
+	margin:-100px -590px 0 0;
+	right:50%;
+	text-align:right;
+}
+.kode_pet_caption h2{
+	color:#fff;
+	font-weight:bold;
+	text-transform:capitalize;
+	margin:0px 0px 20px 0px;
+	font-size:70px;
+	line-height:70px;
+	font-family: 'Slabo 27px', serif;
+}
+.kode_pet_caption p{
+	font-size:20px;
+	color:#fff;
+	margin:0px 0px 20px 0px;
+}
+.kode_pet_caption h2 span{
+	display:block;	
+}
+.kode_pet_caption a{
+	display:inline-block;
+	font-size:16px;
+	color:#fff;
+	font-weight:bold;
+	padding:13px 40px;
+	border-radius:30px;
+	line-height:normal;
+	text-transform:uppercase;
+	margin:0px 0px 0px 20px;	
+}
+.kode_pet_caption a:first-of-type{
+	margin-left:0px;	
+}
+.kode_pet_banner .bx-wrapper{
+	margin:0 auto;	
+}
+.kode_pet_banner .bx-wrapper .bx-viewport{
+	border:0px;	
+}
+.kode_pet_banner .bx-wrapper .bx-pager{
+	padding:0px;	
+}
+.kode_pet_banner .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom:40px;
+	/*right:50%;
+	margin:0px -300px;
+	text-align:right;*/
+	font-size:0px;	
+}
+.kode_pet_banner .bx-wrapper .bx-pager.bx-default-pager a{
+	background-color:#fff;	
+}
+.kode_pet_banner .bx-wrapper .bx-pager.bx-default-pager a:hover, 
+.kode_pet_banner .bx-wrapper .bx-pager.bx-default-pager a.active{
+	border:3px solid #fff;
+	border-radius:100%;
+	width:13px;
+	height:13px;	
+}
+/*
+	  ==============================================================
+		   Pet Download Sermon Wrap Style
+	  ==============================================================
+*/
+.kode_pet_dwnld{
+	float:left;
+	width:100%;	
+}
+.kode_pet_dwnld h5{
+	display:inline-block;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	line-height:68px;	
+}
+.kode_pet_dwnld a{
+	float:right;
+	margin-top:5px;	
+}
+/*
+	  ==============================================================
+		   Pet Services Wrap Style
+	  ==============================================================
+*/
+.kode_pet_service_lst{
+	float:left;
+	width:100%;
+	position:relative;
+	border:1px solid #eeeeee;
+	padding:5px;
+	text-align:center;
+}
+.kode_pet_service_lst figure{
+	border:1px solid #eeeeee; 	
+}
+.kode_pet_service_lst figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_pet_service_lst figure:before{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:0px;	
+}
+.kode_pet_service_lst:hover figure:before{
+	height:100%;
+	opacity:0.7;	
+}
+.kode_pet_service_caption{
+	float:left;
+	width:100%;
+	padding:15px 0px;
+	position:absolute;
+	bottom:0px;	
+}
+.kode_pet_service_caption h5{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;	
+}
+.kode_pet_service_hover{
+	float:left;
+	width:100%;
+	text-align:center;
+	position:absolute;
+	top:20%;
+	padding:0px 25px;
+	margin:-50px 0px 0px;
+	opacity:0;	
+}
+.kode_pet_service_hover p{
+	line-height:24px;
+	color:#fff;
+	font-weight:bold;
+	margin:0px 0px 20px;
+	word-break:break-all;	
+}
+.kode_pet_service_hover a{
+	color:#fff;
+	text-transform:uppercase;
+	position:relative;
+	font-weight:bold;	
+}
+.kode_pet_service_hover a:before{
+	content:"";
+	position:absolute;
+	bottom:-8px;
+	width:50px;
+	left:50%;
+	height:2px;
+	background-color:#fff;
+	margin-left:-25px;	
+}
+.kode_pet_service_hover a:after{
+	content:"";
+	position:absolute;
+	bottom:-15px;
+	width:30px;
+	left:50%;
+	height:2px;
+	background-color:#fff;
+	margin-left:-14px	
+}
+.kode_pet_service_hover a:hover{
+	color:#323232;	
+}
+.kode_pet_service_hover a:hover:before,
+.kode_pet_service_hover a:hover:after
+{
+	background-color:#323232;	
+}
+.kode_pet_service_lst:hover .kode_pet_service_caption{
+	top:50px;
+	background:none;
+	padding:0px;	
+}
+.kode_pet_service_lst:hover .kode_pet_service_hover{
+	top:50%;
+	opacity:1;	
+}
+/*
+	  ==============================================================
+		   Pet Heading Wrap Style
+	  ==============================================================
+*/
+/*
+	  ==============================================================
+		   Pet Heading Wrap Style
+	  ==============================================================
+*/
+/*Heading 1 Style*/
+.kode_pet_heading_1,
+.kode_pet_heading_2,
+.kode_pet_heading_3
+{
+	float:left;
+	width:100%;
+	position:relative;
+	text-align:center;
+	margin-bottom:30px;	
+}
+.kode_pet_heading_1 h3,
+.kode_pet_heading_2 h3,
+.kode_pet_heading_3 h3
+{
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0px 0px 16px;
+	line-height:25px;	
+}
+.kode_pet_heading_1 span,
+.kode_pet_heading_2 span,
+.kode_pet_heading_3 span
+{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_pet_heading_1 span
+{
+	margin-bottom:7px;	
+}
+.kode_pet_heading_1 span:before,
+.kode_pet_heading_3 span:before
+{
+	content:"";
+	position:absolute;
+	top:12px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	width:120px;
+	height:1px;
+	background-color:#666666;	
+}
+.kode_pet_heading_1 i{
+	display:inline-block;
+	font-size:20px;
+	color:#000000;
+	position:relative;
+	z-index:9999;
+	padding:0px 8px;
+	background-color:#fff;	
+}
+.kode_pet_heading_1 p{
+	word-break:break-all;
+	padding:0px 120px;
+	text-align:center;
+	margin:0px;	
+}
+/*Heading 2 Style*/
+.kode_pet_heading_2 h3{
+	color:#fff;	
+}
+.kode_pet_heading_2 span:before{
+	content:"";
+	position:absolute;
+	top:12px;
+	left:-78px;
+	right:0px;
+	margin:auto;
+	width:40px;
+	height:1px;
+	background-color:#fff;	
+}
+.kode_pet_heading_2 span:after{
+	content:"";
+	position:absolute;
+	top:12px;
+	right:132px;
+	left:auto;
+	margin:auto;
+	width:40px;
+	height:1px;
+	background-color:#fff;	
+}
+.kode_pet_heading_2 i{
+	display:inline-block;
+	font-size:18px;
+	color:#fff;
+	position:relative;
+	z-index:9999;
+	padding:0px 8px;	
+}
+/*Heading 3 Style*/
+.kode_pet_heading_3 span{
+	display:inline-block;
+	margin-bottom:10px;
+}
+.kode_pet_heading_3 p{
+	margin-bottom:0px;
+}
+.kode_pet_heading_3 i{
+	display:inline-block;
+	font-size:18px;
+	color:#000000;
+	position:relative;
+	z-index:9999;
+	padding:0px 8px;
+	background-color:#ededed;	
+}
+/*Heading 2 style*/
+.kode_pet_heading_4{
+	float:left;
+	width:100%;
+	position:relative;
+	text-align:center;	
+}
+.kode_pet_heading_4 h3{
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0px 0px 20px;
+	line-height:25px;
+	color:#fff;
+}
+.kode_pet_heading_4 h4{
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#fff;
+	font-style:italic;
+	margin:0px 0px 25px;
+	line-height:30px;
+	font-size:40px;
+	margin-bottom:56px;	
+}
+.kode_pet_heading_4 span{
+	float:left;
+	width:100%;
+	position:relative;
+	margin-bottom:20px;	
+}
+.kode_pet_heading_4 span:before{
+	content:"";
+	position:absolute;
+	top:14px;
+	left:-75px;
+	right:0px;
+	margin:auto;
+	width:40px;
+	height:1px;
+	background-color:#fff;	
+}
+.kode_pet_heading_4 span:after{
+	content:"";
+	position:absolute;
+	top:14px;
+	right:-70px;
+	left:0px;
+	margin:auto;
+	width:40px;
+	height:1px;
+	background-color:#fff;	
+}
+.kode_pet_heading_4 i{
+	display:inline-block;
+	font-size:18px;
+	color:#fff;
+	position:relative;
+	z-index:9999;
+	padding:0px 8px;	
+}
+/*
+	  ============================================================
+		  Love Pet Wrap Start
+	  ============================================================
+*/
+.kode_love_bg{
+	padding-top:5px;
+}
+.kode_love_wrap_left,
+.kode_love_wrap_left ul,
+.kode_love_wrap,
+.kode_love_wrap ul,
+.kode_love_img
+{
+	float:left;
+	width:100%;	
+}
+.kode_love_wrap ul,
+.kode_love_wrap_left ul{
+	padding:55px 0px 0px 0px;	
+}
+.kode_love_wrap ul li,
+.kode_love_wrap_left ul li
+{
+	float:left;
+	position:relative;
+	padding:20px 0px;	
+}
+.kode_love_wrap i
+{
+	float:left;
+	width:70px;
+	height:70px;
+	text-align:center;
+	line-height:70px;
+	background-color:#fff;
+	box-shadow:0 3px 3px 1px rgba(0, 0, 0, 0.18);
+	border-radius:100%;	
+	font-size:40px;
+	color:#333;
+}
+.kode_love_wrap_des{
+	padding:0px 0px 0px 90px;
+	float:none;	
+}
+.kode_love_wrap_des h5,
+.kode_love_des_left h5
+{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#333;
+	margin-bottom:20px;	
+	line-height:20px;
+}
+.kode_love_wrap_des p,
+.kode_love_des_left p
+{
+	color:#333;
+	margin:0px;
+	line-height:23px;	
+}
+.kode_love_wrap ul li:first-child,
+.kode_love_wrap_left ul li:first-child
+{
+	padding-top:0px;	
+}
+.kode_love_wrap ul li:hover i,
+.kode_love_wrap_left ul li:hover i{
+	color:#fff;	
+}
+/*Image Wrap Style*/
+.kode_love_img figure img{
+	width:100%;
+	height:auto;	
+}
+/*LEft Style*/
+.kode_love_wrap_left ul li i{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:70px;
+	height:70px;
+	text-align:center;
+	line-height:70px;
+	background-color:#fff;
+	box-shadow:0 3px 3px 1px rgba(0, 0, 0, 0.18);
+	border-radius:100%;
+	font-size:40px;
+	color:#666666;		
+}
+.kode_love_des_left{
+	padding:0px 90px 0px 0px;
+	text-align:right;
+	float:none;	
+}
+
+/*
+	  ==============================================================
+		   Pet Supper Homeless Wrap Style
+	  ==============================================================
+*/
+.kode_pet_homeless_bg{
+	background-image:url(../images/pet-donate-bg1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+	padding-bottom:64px;	
+}
+.kode_pet_homeless_bg:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:#262626;
+	opacity:0.7;
+		
+}
+.kode_pet_homeless_bg .container{
+	position:relative;
+	z-index:999999;	
+}
+.kode_price_outer_wrap{
+	width:985px;
+	margin:25px auto 56px;
+	box-shadow:0px 0px 0px 30px rgba(255,255,255,0.12);	
+}
+/*Donate 1 Style*/
+.kode_donate1{
+	float:left;
+	width:31%;
+	background-color:#27ae60;
+	text-align:center;
+	padding:50px 30px;
+	position:relative;
+	z-index:99999;	
+}
+.kode_donate1 h3,
+.kode_donate2 h3
+{
+	color:#fff;
+	font-weight:normal;
+	text-transform:uppercase;
+	font-size:28px;
+	line-height:20px;
+	margin-bottom:10px;
+}
+.kode_donate1 h2,
+.kode_donate2 h2
+{
+	color:#fff;
+	font-weight:bold;
+	font-size:56px;	
+	line-height:50px;
+	text-transform:uppercase;
+}
+.kode_donate1:before{
+	content:"";
+	position:absolute;
+	top:52px;
+	left:0px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 128px 0 0 136px;
+	border-color: transparent transparent transparent rgba(255, 255, 255, 0.12) ;
+	z-index:-1;
+	opacity:0;	
+}
+.kode_donate1:hover:before{
+	opacity:1;
+	border-width: 178px 0 0 306px;
+	top:1px;	
+}
+/*Donate 2 Style*/
+.kode_donate2{
+	float:left;
+	width:38%;
+	text-align:center;
+	padding:50px 30px;
+	position:relative;
+	z-index:9999;	
+}
+
+.kode_donate2:before{
+	content:"";
+	position:absolute;
+	top:-15px;
+	left:0px;
+	width:100%;
+	height:117%;
+	z-index:-1;	
+}
+.kode_donate2:after{
+	content:"";
+	position:absolute;
+	top:45px;
+	left:0px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 150px 0 0 230px;
+	border-color: transparent transparent transparent #51c536;
+	z-index:-1;
+	opacity:0;	
+}
+.kode_donate2:hover:after{
+	opacity:1;
+	border-width: 211px 0 0 376px;
+	top:-15px;
+}
+.span_top,
+.span_bottom{
+	position:relative;
+	display:block;	
+}
+.span_top:before{
+	content:"";
+	position:absolute;
+	top:-65px;
+	left:-45px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 15px 15px;
+	border-color: transparent transparent #45a82e transparent;	
+}
+.span_top:after{
+	content:"";
+	position:absolute;
+	top:-65px;
+	right:-44px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 15px 0 0 15px;
+	border-color: transparent transparent transparent #45a82e;	
+}
+.span_bottom:before{
+	content:"";
+	position:absolute;
+	bottom:-65px;
+	left:-45px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 15px 15px 0;
+	border-color: transparent #45a82e transparent transparent;
+	
+}
+.span_bottom:after{
+	content:"";
+	position:absolute;
+	bottom:-65px;
+	right:-45px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 15px 15px 0 0;
+	border-color: #45a82e transparent transparent transparent;	
+}
+/*Read MOre Style*/
+.kode_homless_read{
+	float:left;
+	width:100%;
+	text-align:center;	
+}
+.kode_homless_read h6{
+	color:#fff;
+	font-size:16px;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:25px;	
+}
+.kode_homless_read a{
+	display:inline-block;
+	position:relative;
+	font-size:20px;
+	text-transform:uppercase;
+	color:#fff;	
+}
+.kode_homless_read a:before{
+	content:"";
+	position:absolute;
+	bottom:-10px;
+	left:0px;
+	right:0px;
+	width:50px;
+	height:1px;
+	margin:auto;
+	background-color:#fff;	
+}
+.kode_homless_read a:after{
+	content:"";
+	position:absolute;
+	bottom:-15px;
+	left:0px;
+	right:0px;
+	width:25px;
+	height:1px;
+	margin:auto;
+	background-color:#fff;	
+}
+
+
+/*
+	  ==============================================================
+		   Pet Find Best Companion Wrap Style
+	  ==============================================================
+*/
+#our-pets{
+	padding-bottom:25px;	
+}
+.kode_moq_piler{
+	float:left;
+	width:100%;
+	margin:0px 0px 28px;
+	position:relative;
+	text-align:center;
+	box-shadow:0 0 5px 3px rgba(0, 0, 0, 0.18);
+	background:#000;
+}
+.kode_moq_piler figure{
+	border-bottom:3px solid;	
+}
+.kode_moq_piler figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_moq_piler_logo{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	bottom:0px;
+	background-color:#fff;
+	border-top:3px solid;
+	padding:54px 0px 0px;		
+}
+.kode_moq_piler_logo i{
+	width:80px;
+	height:80px;
+	font-size:35px;
+	border-radius:100%;
+	color:#fff;
+	line-height:76px;
+	border:3px solid;
+	position:absolute;
+	top:-44px;
+	margin:auto 0px auto -44px;	
+}
+.kode_moq_piler_logo h5{
+	color:#0b0b0b;
+	text-transform:uppercase;
+	font-weight:bold;
+	position:relative;
+	padding:0px 0px 20px;	
+}
+.kode_moq_piler_logo h5:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	border-bottom:1px solid;
+	width:15%;
+	height:100%;	
+}
+.kode_moq_piler:hover .kode_moq_piler_logo{
+	background:none;
+	border:0px;	
+}
+.kode_moq_piler:hover figure{
+	opacity:0.4;	
+}
+.kode_moq_piler:hover .kode_moq_piler_logo h5{
+	color:#fff;	
+}
+.kode_moq_piler:hover .kode_moq_piler_logo h5:before{
+	border-color:#fff;	
+}
+.kode_moq_piler:hover .kode_moq_piler_logo{
+	bottom:88px;
+}
+.kode_moq_piler:hover .kode_moq_piler_logo i{
+	background-color:#fff;
+}
+.kode_moq_piler:hover{
+	box-shadow:0 0 5px 3px rgba(0, 0, 0, 0.18);	
+}
+/*
+	  ==============================================================
+		   Pet Image Gallery Wrap Style
+	  ==============================================================
+*/
+.kode_pet_gallery_bg{
+	background-color:#ededed;
+	padding-bottom:0px;	
+}
+.pet_no_padding{
+	padding:0px;	
+}
+.kode_pet_gallery{
+	float:left;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+.kode_pet_gallery figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_pet_gallery figure:before{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:0px;	
+}
+.kode_pet_galry_icon{
+	float:left;
+	width:100%;
+	position:absolute;
+	text-align:center;
+	top:-10%;
+	margin:-20px 0px 0px;
+	opacity:0;
+	z-index:-9999999;	
+}
+.kode_pet_galry_icon li{
+	display:inline-block;
+	position:relative;	
+}
+.kode_pet_galry_icon li a{
+	display:inline-block;
+	width:45px;
+	height:45px;
+	border-radius:100%;
+	font-size:15px;
+	text-align:center;
+	line-height:45px;
+	font-weight:bold;
+	margin:0px 0px 0px 10px;
+	position:relative;
+	z-index:99999;
+	background-color:#fff;	
+}
+.kode_pet_galry_icon li a:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	margin:auto;
+	width:0px;
+	height:0px;
+	border-radius:100%;
+	z-index:-1;	
+}
+.kode_pet_galry_icon li:hover a:before{
+	width:100%;
+	height:100%;
+	opacity:1;	
+}
+.kode_pet_galry_icon li:hover a{
+	color:#fff;	
+}
+.kode_pet_galry_icon li:first-child{
+	margin-left:0px;	
+}
+.kode_pet_gallery:hover figure:before{
+	height:100%;
+	opacity:0.6;	
+}
+.kode_pet_gallery:hover .kode_pet_galry_icon{
+	top:50%;
+	opacity:1;
+	z-index:9999999;	
+}
+/*
+	  ==============================================================
+		   Pet Trusted country Wrap Style
+	  ==============================================================
+*/
+.kode_pet_trusted_bg{
+	position:relative;
+	background-image:url(../images/see-more-bg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;	
+}
+.kode_pet_trusted_bg:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	opacity:0.9;	
+}
+.kode_pet_trusted{
+	float:left;
+	width:100%;	
+	position:relative;
+}
+.kode_pet_trusted h3{
+	float:left;
+	font-weight:bold;
+	text-transform:uppercase;	
+}
+.kode_pet_trusted p{
+	float:left;
+	word-break:break-all;
+	margin:0px;
+	font-size:15px;	
+}
+.kode_pet_trusted a{
+	position:absolute;
+	right:0px;
+	top:10px;
+	display:inline-block;
+	padding:15px 30px;
+	line-height:13px;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	border-radius:40px;
+	text-transform:uppercase;	
+}
+/*
+	  ==============================================================
+		  Pet  Our Blog Wrap Style
+	  ==============================================================
+*/
+.kode_latest_blog_outer{
+	padding-bottom:0px;	
+}
+.kode_latest_blog{
+	margin-top:15px;
+	float:left;
+	width:100%;	
+}
+.kode_pet_blog{
+	float:left;
+	width:100%;
+	border:2px solid #ededed;
+	border-radius:3px;
+	position:relative;
+	padding:30px;	
+}
+.our-blogs .kode_pet_blog{
+	margin-bottom:50px;
+}
+.kode_pet_blog h6{
+	position:absolute;
+	top:-10px;
+	left:50%;
+	width:350px;
+	color:#666;
+	background-color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0px 0px 0px -160px;
+	padding:0 20px;	
+	text-align:center
+	
+}
+.kode_pet_blog figure{
+	margin:0px 0px 30px;	
+}
+.kode_pet_blog figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_pet_blog_des{
+	float:left;
+	width:100%;
+	text-align:center;	
+}
+.kode_pet_blog_des h5{
+	text-transform:uppercase;
+	font-weight:400;
+	margin:0px 0px 22px;
+	line-height:20px;	
+	color:#333;
+}
+.kode_pet_blog_des ul{
+	float:left;
+	width:100%;
+	margin:0px 0px 15px;
+}
+.kode_pet_blog_des ul li{
+	display:inline-block;
+	position:relative;
+	border-left:1px solid #2c2c2c;
+	text-transform:capitalize;
+	padding:0px 8px;
+	line-height:16px;	
+}.kode_pet_blog_des ul > li > a{
+	display:block;
+	color:#333;	
+}
+.kode_pet_blog_des ul li a b,
+.kode_pet_blog_des ul li a strong{
+	font-weight:400;
+}
+.kode_pet_blog_des ul li i{
+	margin:0px 5px 0px;	
+}
+.kode_pet_blog_des ul li:first-child{
+	border:0px;	
+}
+.kode_pet_blog_des p{
+	word-break:break-all;
+	margin:0px 0px 24px;
+	line-height:24px;
+}
+.kode_pet_blog_des > a{
+	display:inline-block;
+	font-size:16px;
+	text-transform:uppercase;
+	border:2px solid #999999;
+	border-radius:30px;
+	line-height:18px;
+	padding:15px 25px;
+	color:#333;
+	font-family: 'Josefin Sans', sans-serif;	
+}
+/*
+	  ==============================================================
+		   Pet Testimonial Wrap Style
+	  ==============================================================
+*/
+.kode_gallery_wrap,
+.kode_gallery_img
+{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.kode_gallery_img figure:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);	
+}
+.kode_gallery_img figure:after{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:0px;	
+}
+.kode_gallery_img figure img{
+	width:100%;
+	height:auto;	
+}
+.no_padding{
+	padding:0px;	
+}
+/*Gallery TEstimonial Wrap Style*/
+.gallery_testimonial .owl-buttons{
+	display:none;	
+}
+/*Image Description*/
+.kode_test_des{
+	position:absolute;
+	top:0%;
+	margin:-44px 0px 0px;
+	padding:0px 30px;
+	text-align:center;
+	opacity:0;	
+}
+.kode_test_des p{
+	color:#fff;
+	word-break:break-all;
+	margin-bottom:15px;	
+	font-size:18px;
+}
+.kode_test_des p:before{
+	content:"\f10d";
+	font-family:fontawesome;
+	position:absolute;
+	top:-40px;
+	left:30px;
+	color:#fff;
+	font-size:30px;	
+}
+.kode_test_des p:after{
+	content:"\f10e";
+	font-family:fontawesome;
+	position:absolute;
+	bottom:10px;
+	right:30px;
+	color:#fff;
+	font-size:30px;	
+}
+.kode_test_des h5{
+	color:#fff;
+	font-weight:bold;
+	text-transform:capitalize;
+	line-height:26px;	
+}
+.kode_gallery_img:hover .kode_test_des{
+	top:50%;
+	opacity:1;	
+}
+.kode_gallery_img:hover figure:after{
+	opacity:0.8;
+	height:100%;	
+}
+/*
+	  ==============================================================
+		   Pet Valueable Client Wrap Style
+	  ==============================================================
+*/
+.kode_pet_brnd_lst{
+	float:left;	
+}
+.kode_pet_value{
+	border:2px solid #efefef;
+	margin:0px 0px 0px 20px;
+	float:left;	
+	padding:25px;
+}
+.kode_pet_value a{
+	display:block;	
+}
+.kode_pet_value img{
+	width:100%;
+	height:auto;	
+}
+.kode_pet_value:hover{
+	box-shadow:0 2px 2px 3px rgba(0, 0, 0, 0.13);	
+}
+.kode_pet_brnd_lst .owl-controls{
+	display:none !important;	
+}
+
+
+
+/*
+	  ==============================================================
+		   Pet Appoitment Wrap Style
+	  ==============================================================
+*/
+.kode_pet_appoit_bg{
+	position:relative;
+	background-color:#ededed;
+    margin-bottom: -50px;
+}
+.kode_pet_appoit_bg:before{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	width:100%;
+	height:100%;
+	background-image:url(../images/pet-appotmnt-01.png);
+	background-size:19%;
+	background-position:bottom left;
+	background-repeat:no-repeat;	
+}
+.kode_pet_appoit_bg:after{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	width:100%;
+	height:100%;
+	background-image:url(../images/pet-appotmnt-01.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom right;
+	background-size:29%;	
+}
+.kode_pet_appoit_bg .container{
+	position:relative;
+	z-index:99999;	
+}
+.kode_pet_appotmnt_contact{
+	padding-bottom:42px;
+}
+.kode_pet_appotmnt{
+	width:750px;
+	margin:auto;
+	position:relative;
+	z-index:99999999999999;	
+}
+.kode_pet_appotmnt form{
+	float:left;
+	width:100%;	
+}
+.kode_appotmnt_field{
+	float:left;
+	width:100%;
+	margin:0px 0px 40px;	
+}
+.kode_appotmnt_field input[type="text"]{
+	width:100%;
+	height:38px;
+	border:1px solid #ccc;
+	background-color:#fff;
+	padding:8px 10px;
+	color:#000000;	
+}
+.kode_appotmnt_field textarea{
+	width:100%;
+	height:115px;	
+	border:1px solid #ccc;
+	background-color:#fff;
+	padding:8px 10px;
+	resize:none;
+	color:#000000;
+}
+.kode_pet_app_btn{
+	width:100%;
+	float:left;
+	text-align:center;
+	margin-top:10px;	
+}
+.kode_pet_app_btn input[type="submit"],
+.kode_pet_app_btn button{
+	border:0px;
+	border-radius:40px;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:15px 25px;
+	line-height:normal;	
+	font-size:16px;
+	position:relative;
+}
+/*
+	  ==============================================================
+		   Pet Map Wrap Style
+	  ==============================================================
+*/
+.kode_pet_map{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_pet_map .map-canvas{
+	width:100%;
+	float:left;
+	height:300px;	
+}
+/*
+	  ==============================================================
+		   Our Agents Wrap Style
+	  ==============================================================
+*/
+.kode-pagesection{
+	padding-bottom:7px;	
+}
+.agents{
+	float:left;
+	width:100%;
+	position:relative;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+.agents .thumb{
+	float:left;
+	width:100%;
+}
+.agents .thumb img{
+	width:100%;
+}
+.agents .caption{
+	float:left;
+	width:100%;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	padding:15px;
+	background-color:#000;
+	text-align:center;
+	height:14%
+}
+.agents:hover .caption{
+	height:48%;
+}
+.agents .caption p{
+	color:#fff;
+}
+.agents .caption h2{
+	margin:0px 0px 10px 0px;
+	text-transform:uppercase;
+	font-size:20px;
+	color:#fff;	
+}
+.agents .caption h2 a{
+	color:#fff;
+}
+.agents .social-icons{
+	width:100%;
+	text-align:center;
+}
+.agents .social-icons ul li{
+	float:none;
+	display:inline-block;
+}
+
+
+/* SubHeader */
+.kode-subheader {
+	float: left;
+	width: 100%;
+	background: url(/web/extra-images/subheader-bg.jpg);
+	height: 295px;
+	position: relative;
+	text-align: center;
+	background-size:cover;
+}
+.kode-subheader:before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.65);
+	z-index: 0;
+}
+.kode-subheader.subheader-height {
+	padding: 154px 0px 0px 0px;
+}
+.kode-subheader h2 {
+	color: #ffffff;
+	text-transform: capitalize;
+	font-size: 55px;
+	font-style: italic;
+	font-weight: 500;
+	line-height: 1;
+	margin:0px 0px 10px;
+}
+.kode-breadcrumb {
+	display: inline-block;
+	margin: 0px 0px 0px -15px;
+}
+.kode-breadcrumb li {
+	display: inline-block;
+	list-style: none;
+	padding: 0px 15px;
+	position: relative;
+}
+.kode-breadcrumb li:before {
+	content: "\f105";
+	font-family: FontAwesome;
+	position: absolute;
+	right: -5px;
+	top: 0px;
+	color: #ffffff;
+}
+.kode-breadcrumb li:last-child { padding-right: 0px; }
+.kode-breadcrumb li:last-child:before { display: none; }
+.kode-breadcrumb li a {
+	color: #ffffff;
+	font-size: 15px;
+	font-style: italic;
+}
+/* SubHeader */
+.kode-blog-list > ul > li {
+	list-style: none;
+	margin-bottom: 27px;
+}
+.kode-blog-list ul li figure {
+	margin: 0px;
+	overflow: hidden;
+}
+.kode-blog-list ul li figure,
+.kode-blog-list ul li figure > a,.kode-blog-list ul li figure img {
+	float: left;
+	width: 100%;
+}
+.kode-blog-list figure figcaption {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	z-index: 3;
+}
+.kode-category { float: right; }
+.kode-category a {
+	float: left;
+	padding: 4px 10px 1px;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 500;
+}
+.kode-blog-info {
+	background-color: ghostwhite;
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 20px 40px;
+}
+.kode-blog-info time {
+	display: inline-block;
+	color: #9a9a9a;
+	margin-bottom: 10px;
+}
+.kode-blog-info h2 {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.kode-blog-list ul li .mask {
+   position:absolute; /* Center the mask */
+   top:50px;
+   left:128px;
+   cursor:pointer;
+   border-radius: 50px;
+   border-width: 60px;
+   display: inline-block;
+   height: 100px;
+   width: 100px;
+   border: 60px solid rgba(0, 0, 0, 0.7);
+   box-sizing:border-box;
+   opacity:1;
+   visibility:visible;
+   -webkit-transform: scale(4);
+      -moz-transform: scale(4);
+       -ms-transform: scale(4);
+        -o-transform: scale(4);
+           transform: scale(4);
+   -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+       -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+           transition: all 0.3s ease-in-out;
+}
+
+.kode-blog-list ul li:hover .mask {
+   opacity: 0;
+   border:0px solid rgba(0,0,0,0.7);
+   visibility:hidden;
+}
+/* Pagination */
+.pagination {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin: 10px 0px 30px 0px;
+}
+.pagination a,.pagination span {
+	display: inline-block;
+	border: 1px solid #d7d7d7;
+	color: #4e4e4e;
+	padding: 6px 13px 7px;
+	margin-right: 14px;
+	border-radius: 4px;
+	text-transform: uppercase;
+}
+.pagination a:hover,.pagination span { color: #ffffff; }
+/* Blog Large */
+.kode-large-blog .kode-blog-info p {
+	font-size: 16px;
+}
+.kode-tag { float: left; }
+.kode-tag a {
+	float: left;
+	padding: 2px 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	position: relative;
+	margin-right: 3px;
+}
+.kode-tag a span { position: relative; }
+.kode-tag a:before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #30302d;
+	-webkit-transform: skewX(-30deg);
+	   -moz-transform: skewX(-30deg);
+	    -ms-transform: skewX(-30deg);
+	     -o-transform: skewX(-30deg);
+	        transform: skewX(-30deg);
+}
+.kode-tag a:hover { color: #ffffff; }
+.kode-large-blog figure figcaption {
+	padding: 0px 20px 20px 30px;
+}
+.kode-blog-post {
+	float: right;
+	padding: 0px 10px;
+}
+.kode-blog-post ul { margin: 0px; }
+.kode-blog-post ul li {
+	float: left;
+	list-style: none;
+	padding: 2px 10px;
+	color: #fff;
+	font-weight: 500;
+	border:1px solid #fff;
+}
+.kode-blog-post ul li a {
+	color: #fff;
+	font-weight: 500;
+}
+.kode-blog-post ul li i { margin-right: 7px; }
+.kode-inncat a {
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.kode-large-blog .kode-blog-info {
+	padding: 40px 40px;
+}
+.kode-large-blog .kode-blog-info h2 {
+	margin: 0px 0px 25px 0px;
+	font-size: 30px;
+}
+.kode-large-blog .flex-control-paging { display: none; }
+/* BlogDetail */
+.detail-info {
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.detail-info h2 {
+	float: left;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.detail-info .kode-socialnetwork {
+	float: right;
+	padding: 0px 0px 0px 0px;
+}
+.kode-socialnetwork ul {
+	float: left;
+	padding: 2px 0px 0px 0px;
+}
+.kode-socialnetwork ul li {
+	display:inline-block;
+	list-style: none;
+	margin-left: 15px;
+	line-height: 1;
+	padding: 2px 0px 0px 0px;
+}
+.kode-socialnetwork span {
+	float: left;
+	color: #30302d;
+	text-transform: uppercase;
+}
+/* Detail Editor */
+.kode-editor {
+	float: left;
+	width: 100%;
+	padding-bottom:8px;
+}
+.kode-editor p {
+	margin-bottom: 20px;
+}
+blockquote {
+	float: left;
+	width: 100%;
+	padding: 40px 30px;
+	font-size: 18px;
+	color: #666666;	
+	background-color: #f5f5f5;
+	line-height:35px;
+	text-align: center;
+	position: relative;
+	margin-bottom: 25px;
+	border-left:4px solid;
+	margin-top:7px;	
+}
+blockquote:before {
+	content: "\f10d";
+	font-family: FontAwesome;
+	font-size: 20px;
+	padding: 0px 20px 0px 0px;
+	display: inline-block;
+}
+blockquote:after {
+	content: "\f10e";
+	font-family: FontAwesome;
+	font-size: 20px;
+	padding: 0px 0px 0px 5px;
+	display: inline-block;
+	position: relative;
+	top: 4px;
+}
+/* Admin Post */
+.kode-admin-post {
+	float: left;
+	width: 100%;
+	padding: 30px 0px 30px 0px;
+	position: relative;
+	margin: 0px 0px 35px 0px;
+	border: 1px solid #dddddd;
+	border-left: none;
+	border-right: none;
+}
+.kode-admin-post figure {
+	border: 3px solid #efefef;
+	float: left;
+	width: 104px;
+	margin: 0px 0px 0px 0px;
+}
+.kode-admin-post figure a {
+	float: left;
+	padding: 6px 0px 2px;
+	width: 100%;
+}
+.kode-admin-post figure,.kode-admin-post figure img {
+	border-radius: 100%;
+}
+.kode-admin-post figure ~ .admin-info { padding: 15px 0px 0px 142px; }
+.admin-info h2 {
+    font-weight: 500;
+    text-transform: uppercase;
+	font-size:24px;
+}
+/*  NextPrev Post */
+.kode-postsection {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 32px;
+	margin-bottom: 30px;
+}
+.kode-postsection ul li {
+	float: left;
+	width: 50%;
+	list-style: none;
+	margin-bottom:3px;
+}
+.kode-postsection ul li a {
+	font-size: 24px;
+	color: #666666;
+	display:inline-block;
+	margin-bottom:10px;
+}
+.kode-postsection ul li a i { margin-right: 15px; }
+.kode-postsection ul li h6 {
+	margin: 0px;
+	font-style: italic;
+}
+.kode-postsection ul li.kode-next {
+	float: right;
+	text-align: right;
+}
+.kode-postsection ul li.kode-next a {
+	float: right;
+	width: 100%;
+}
+.kode-postsection ul li.kode-next a i { margin: 0px 0px 0px 15px; }
+/* Comment */
+#kodecomments {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #dddddd;
+	padding: 0px 0px 15px 0px;
+	margin: 0px 0px 40px 0px;
+}
+#kodecomments ul ul { margin: 0px; }
+#kodecomments ul li {
+	float: left;
+	width: 100%;
+	list-style: none;
+}
+#kodecomments > ul > li {
+	margin-bottom: 25px;
+}
+#kodecomments ul li figure {
+	float: left;
+	width: 60px;
+}
+#kodecomments ul li figure,#kodecomments ul li figure img {
+	border-radius: 4px;
+}
+#kodecomments ul li figure ~ .text {
+	padding: 0px 0px 0px 100px;
+	float: none;
+	width: auto;
+}
+#kodecomments ul li .text h6 {
+	margin: 0px;
+	font-weight: 600;
+	float: left;
+	text-transform: uppercase;
+}
+#kodecomments ul li .text .replay-btn {
+	font-weight: 600;
+}
+.comment-info {
+	float: left;
+	width: 100%;
+	background-color: #f5f5f5;
+	padding: 22px 30px;
+	position: relative;
+	border-radius: 4px;
+}
+.comment-info:before {
+	content: '';
+	position: absolute;
+	left: -8px;
+	top: 10px;
+	border-top: 8px solid transparent;
+	border-right: 8px solid #f5f5f5;
+	border-bottom: 8px solid transparent;
+}
+#kodecomments ul li .text p {
+	margin-top: 8px;
+	margin-bottom: 0px;
+	display: inline-block;
+}
+.short-time {
+	float: right;
+	font-size: 12px;
+}
+.short-time span {
+	color: #666666;
+	font-weight: 600;
+}
+#kodecomments .children li { margin-bottom: 0px; }
+#kodecomments .children > li { padding: 0px 0px 0px 100px; }
+#kodecomments ul ul.children li {
+	margin-top: 32px;
+}
+/* Comment Form */
+#koderespond,#koderespond form,#koderespond form p.kd-textarea,#koderespond form p textarea {
+	float: left;
+	width: 100%;
+}
+#koderespond { margin-bottom: 25px }
+#koderespond h2 {
+	margin: 0px 0px 15px 0px;
+	text-transform: uppercase;
+}
+#koderespond form p {
+	float: left;
+	width: 33.333%;
+	padding: 0px 20px 20px 0px;
+	margin: 0px;
+	position: relative;
+}
+#koderespond form p i {
+	position: absolute;
+	right: 42px;
+	top: 11px;
+}
+#koderespond form p.kd-phone i,
+#koderespond form p.kd-textarea i{
+	right: 20px;
+}
+#koderespond form p:nth-child(3n),
+#koderespond form p.kd-textarea 
+{ 
+	padding-right: 0px;
+}
+#koderespond form input[type="text"] {
+	float: left;
+	width: 100%;
+	border: 1px solid #e6e6e6;
+	background-color: #f5f5f5;
+	height: 45px;
+	padding: 9px 20px;
+	border-radius: 5px;
+}
+#koderespond form input[type="text"]:focus,
+#koderespond form p textarea:focus 
+{
+	border:1px solid;
+}
+#koderespond form p textarea {
+	height: 140px;
+	border: 1px solid #e6e6e6;
+	color: #666666;
+	padding: 9px 20px;
+	border-radius: 5px;
+	background-color: #f5f5f5;
+	resize:none;
+}
+#koderespond form p input[type="button"],
+#koderespond form p input[type="submit"] 
+{
+	display: inline-block;
+	padding: 8px 40px;
+	color: #ffffff;
+	border: none;
+	text-transform: uppercase;
+	border-radius: 4px;
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 16px;
+	position:relative;
+	border:2px solid transparent;
+}
+#koderespond form p.kd-button {
+	width: 100%;
+}
+#koderespond form p input[type="button"]:hover,
+#koderespond form p input[type="submit"]:hover{
+	border:2px solid;
+	background:transparent;	
+}
+
+/*
+	  ============================================================
+		  Radial Out Effect
+	  ============================================================
+*/
+.hvr-radial-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-radial-out:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50px;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  background-color:#fff;
+}
+.hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
+  color: white;
+}
+.hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+/*
+	  ============================================================
+		  Sweep To Right Effect
+	  ============================================================
+*/
+.hvr-sweep-to-right {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: relative;
+	overflow:hidden;
+	box-shadow:0px 0px 0px 5px rgba(255,255,255,0.5);
+	-moz-box-shadow:0px 0px 0px 5px rgba(255,255,255,0.5);
+	-webkit-box-shadow:0px 0px 0px 5px rgba(255,255,255,0.5);
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  border-radius:30px;
+  background-color:#000;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/*
+	  ============================================================
+		  Testimonial Image Effect
+	  ============================================================
+*/
+figure.effect-apollo img {
+	opacity: 1;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.05,1.05,1);
+	transform: scale3d(1.05,1.05,1);
+}
+
+figure.effect-apollo figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.5);
+	content: '';
+	-webkit-transition: -webkit-transform 0.6s;
+	transition: transform 0.6s;
+	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+}
+figure.effect-apollo:hover img {
+	opacity: 0.3;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+figure.effect-apollo:hover figcaption::before {
+	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+}
+.kode-inner-page section{
+	padding:30px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+figure.effect-hera p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	-webkit-transform-origin: 50%;
+	transform-origin: 50%;
+}
+
+figure.effect-hera figcaption::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	border: 2px solid #fff;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
+	transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
+	-webkit-transform-origin: 50%;
+	transform-origin: 50%;
+}
+
+figure.effect-hera p {
+	width:100%;
+	text-align:center;
+}
+figure.effect-hera p a {
+	color:#54cd38;
+	margin-right:4px;
+	position:relative;
+}
+figure.effect-hera p a i {
+	width:40px;
+	height:40px;
+	background-color:#fff;
+	border-radius:100%;
+	line-height:40px;
+	opacity: 0;
+	z-index:99999;
+	position:relative;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+figure.effect-hera p a i:hover{
+	color:#fff;	
+}
+figure.effect-hera p a:first-child i {
+	-webkit-transform: translate3d(-60px,-60px,0);
+	transform: translate3d(-60px,-60px,0);
+}
+
+figure.effect-hera p a:nth-child(2) i {
+	-webkit-transform: translate3d(60px,-60px,0);
+	transform: translate3d(60px,-60px,0);
+}
+
+figure.effect-hera:hover figcaption::before {
+	opacity: 1;
+	-webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(1,1,1);
+	transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(1,1,1);
+}
+
+figure.effect-hera:hover h2 {
+	opacity: 0;
+	-webkit-transform: translate3d(-50%,-50%,0) scale3d(0.8,0.8,1);
+	transform: translate3d(-50%,-50%,0) scale3d(0.8,0.8,1);
+}
+
+figure.effect-hera:hover p i:empty {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0); /* just because it's stronger than nth-child */
+	opacity: 1;
+}
+
+
+/* Counter */
+.kode-counter ul li {
+	list-style: none;	
+	text-align: center;
+}
+.counter-icon {
+	display: inline-block;
+	width: 152px;
+	height: 152px;
+	text-align: center;
+	border: 4px solid;
+	border-radius: 100%;
+	color: #ffffff;
+	font-size: 80px;
+	line-height:152px;
+	margin-bottom: 30px;
+}
+.word-count {
+	font-size: 65px;
+	color: #ffffff;
+	display: inline-block;
+	line-height: 1;
+}
+.word-count:after {
+	
+	font-size: 65px;
+}
+.kode-counter ul li h6 {
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 0px;
+}
+.kode_gallery_img figure:after,
+.kode_pet_gallery figure:before,
+.kode_pet_service_lst figure:before{
+	background:#000;
+}
