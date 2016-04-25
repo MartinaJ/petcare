@@ -163,7 +163,6 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
     -moz-box-sizing: border-box;
   	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-    border: 1px solid #fff;
     display: inline-block;
     font-size: 14px;
     font-weight: 400;
