@@ -2,7 +2,7 @@
 
 use app\models\Owner;
 use yii\helpers\Html;
-use yii\widgets\ActiveForm;
+use yii\bootstrap\ActiveForm;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Pet */
@@ -15,7 +15,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'species')->dropDownList([
+    <?= $form->field($model, 'species')->inline()->radioList([
         'Lama',
         'Pes',
     ]) ?>

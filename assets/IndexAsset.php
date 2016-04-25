@@ -13,13 +13,17 @@ use yii\web\AssetBundle;
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
-class AppAsset extends AssetBundle
+class IndexAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
         'css/bootstrap.min.css',
+        'css/bootstrap-slider.css',
+        'css/jquery.bxslider.css',
+        'css/flexslider.css',
+        'css/owl.carousel.css',
         'css/widget.css',
         'css/shortcodes.css',
         'css/typography.css',
@@ -31,7 +35,20 @@ class AppAsset extends AssetBundle
         'js/dl-menu/component.css',
         'svg-icon/svg-icon.css',
     ];
-    public $js = [];
+    public $js = [
+        'js/jquery.js',
+        'js/bootstrap.min.js',
+        'js/jquery.bxslider.min.js',
+        'js/bootstrap-slider.js',
+        'js/jquery.flexslider.js',
+        'js/owl.carousel.js',
+        'js/jquery.singlePageNav.js',
+        'js/jquery.prettyPhoto.js',
+        'js/dl-menu/modernizr.custom.js',
+        'js/dl-menu/jquery.dlmenu.js',
+        'js/waypoints-min.js',
+        'http://maps.google.com/maps/api/js?sensor=false',
+    ];
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
