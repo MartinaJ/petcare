@@ -18,4 +18,4 @@
 ##### 4. etapa:
 - [x] 01.05.2016 prezeranie záznamov
 - [x] 08.05.2016 upravené jednotlivé výpisy pre používateľov
-- [ ] **15.05.2016** dokončená a odovzdaná finálna verzia projektu
+- [x] **15.05.2016** dokončená a odovzdaná finálna verzia projektu
